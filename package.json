@@ -1,0 +1,14 @@
+{
+  "name": "z_prefix_backend",
+  "version": "1.0.0",
+  "description": "Backend for the USSF Z Prefix requirement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TSgt Devin Bradfield, USSF",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
