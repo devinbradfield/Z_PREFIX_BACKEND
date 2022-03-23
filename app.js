@@ -12,8 +12,11 @@ app.use(morgan("tiny"));
 app.use("/users", users);
 app.use("/posts", posts);
 
+<<<<<<< HEAD
 console.log(`NODE ENVIRONMENT PER HEROKU`, process.env.NODE_ENV);
 
+=======
+>>>>>>> parent of 19a131a (make it better)
 app.get("/", (req, res) => {
   res.status(200).send("The FaceSpace.");
 });
