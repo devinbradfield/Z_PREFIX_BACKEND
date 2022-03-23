@@ -7,7 +7,7 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: process.env.CONNECTION_STRING,
+    connection: process.env.DATABASE_URL,
     },
 
   staging: {
