@@ -4,15 +4,8 @@
   "description": "Backend for the USSF Z Prefix requirement",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": " node index.js"
-   
-
-=======
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
->>>>>>> parent of 19a131a (make it better)
   },
   "author": "TSgt Devin Bradfield, USSF",
   "license": "ISC",
