@@ -21,7 +21,7 @@ exports.seed = async function (knex) {
     },
 
     {
-      userid: 1,
+      userid: 2,
       title: "Dark Matter Theory",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem nulla pharetra diam sit amet nisl. Velit ut tortor pretium viverra suspendisse. Id neque aliquam vestibulum morbi blandit cursus risus at ultrices. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Proin sed libero enim sed faucibus turpis in eu. Proin nibh nisl condimentum id venenatis. Lacus sed viverra tellus in. Cursus euismod quis viverra nibh cras pulvinar mattis. Eros in cursus turpis massa tincidunt dui ut. Eleifend mi in nulla posuere. Magna ac placerat vestibulum lectus mauris ultrices eros. Morbi non arcu risus quis varius quam quisque. In hac habitasse platea dictumst quisque sagittis purus. Sit amet dictum sit amet justo donec enim. Sed augue lacus viverra vitae congue eu. Amet cursus sit amet dictum. Feugiat scelerisque varius morbi enim nunc faucibus a.",

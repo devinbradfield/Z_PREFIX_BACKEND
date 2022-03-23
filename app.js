@@ -11,7 +11,9 @@ app.use(express.json());
 app.use(morgan("tiny"));
 app.use("/users", users);
 app.use("/posts", posts);
-console.log("node env", process.env.NODE_ENV)
+
+console.log(`NODE ENVIRONMENT PER HEROKU`, process.env.NODE_ENV);
+
 app.get("/", (req, res) => {
   res.status(200).send("The FaceSpace.");
 });
