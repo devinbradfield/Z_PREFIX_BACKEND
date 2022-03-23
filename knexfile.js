@@ -8,9 +8,9 @@ let connectionString = process.env.DATABASE_URL;
 module.exports = {
   development: {
     client: "pg",
-    connection: process.env.CONNECTION_STRING,
+    connection: connectionString,
   },
-
+  // process.env.CONNECTION_STRING
   staging: {
     client: "pg",
     connection: {
