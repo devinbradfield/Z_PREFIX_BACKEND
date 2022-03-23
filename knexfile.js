@@ -7,15 +7,9 @@ let connectionString = process.env.DATABASE_URL;
  */
 module.exports = {
   development: {
-<<<<<<< HEAD
-    client: "pg",
-    connection: connectionString,
-  },
-=======
     client: 'pg',
     connection: process.env.CONNECTION_STRING,
     },
->>>>>>> parent of 19a131a (make it better)
 
   staging: {
     client: "pg",
