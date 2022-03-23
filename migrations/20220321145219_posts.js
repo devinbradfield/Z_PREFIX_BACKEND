@@ -8,6 +8,7 @@ exports.up = function (knex) {
     table.integer("userid").references("id").inTable("users").notNullable().onDelete("cascade");
     table.string("title").notNullable();
     table.string("content", 9000).notNullable();
+    table.timestamp("created_at", { useTz: true }).defaultTo(knex.fn.now());
   });
 };
 
