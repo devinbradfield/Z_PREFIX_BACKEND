@@ -12,8 +12,10 @@ app.use(morgan("tiny"));
 app.use("/users", users);
 app.use("/posts", posts);
 
-console.log(`NODE ENVIRONMENT PER HEROKU`, process.env.NODE_ENV);
-
+myUrl = {
+  development: `postgres://postgres:docker@localhost:5432/facespace`,
+  production:`https://facespace1.herokuapp.com/`,
+  }[process.env.NODE_ENV || "development"]
 
 app.get("/", (req, res) => {
   res.status(200).send("The FaceSpace.");
