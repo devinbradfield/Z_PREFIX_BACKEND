@@ -10,6 +10,7 @@ exports.up = function (knex) {
     table.string("content", 9000).notNullable();
     table.timestamp("created_at", { useTz: true }).defaultTo(knex.fn.now());
   });
+
 };
 
 /**
